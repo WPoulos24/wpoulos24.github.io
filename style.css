@@ -399,7 +399,7 @@ img {
 }
 
 #projects .project-item{
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -703,6 +703,7 @@ img {
         width: 100%;
         border-radius: 0;
         flex-direction: row;
+        display: flex; 
     }
 
     #projects .project-item:nth-child(even) {
